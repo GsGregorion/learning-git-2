@@ -19,14 +19,15 @@ h2 {
   margin: 0 auto;
   color: #2C97DF;
   background-color: #222222;
-  line-height: 75px; }
+  line-height: 75px;
+  font-style: italic; }
 
 .container .text {
   text-align: center;
   /*background-color: #33495F;*/
   color: #fff;
   width: 50%;
-  font-size: 25px;
+  font-size: 28px;
   font-weight: 400;
   line-height: 45px;
   margin: 0 auto; }

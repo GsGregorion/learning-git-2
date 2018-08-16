@@ -4,7 +4,8 @@
   "description": "https://gsgregorion.github.io/learning-git-2/",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run test:html",
+    "test:html": "globstar nu-html-checker *.html"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   "homepage": "https://github.com/GsGregorion/learning-git-2#readme",
   "devDependencies": {
     "autoprefixer-cli": "^1.0.0",
-    "browser-sync": "^2.24.6"
+    "browser-sync": "^2.24.6",
+    "globstar": "^1.0.0"
   }
 }

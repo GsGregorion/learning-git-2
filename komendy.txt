@@ -1,0 +1,7 @@
+/* install */
+npm install --save-dev autoprefixer-cli
+npm install --save-dev nu-html-checker
+
+/* commands examples */
+autoprefixer-cli -o style.prefixed.css style.css
+nu-html-checker *.html

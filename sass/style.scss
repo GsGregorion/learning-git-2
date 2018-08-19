@@ -8,12 +8,14 @@
     position: relative;
     h1 {
         text-align: center;
+        font-style: italic;
         text-transform: uppercase;
         color: #fff;
         background-color: rgba(0, 0, 0, 0.5);
         padding: 250px auto;
         position: absolute;
-        top: 10%;
+        top: 50%;
+        display: flex;
     }
 }
 
@@ -23,7 +25,6 @@ h2 {
     color: #2C97DF;
     background-color: #222222;
     line-height: 75px;
-    font-style: italic;
 }
 
 .container {

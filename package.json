@@ -11,7 +11,7 @@
     "init:files": "touch README.md index.html sass/style.scss js/script.js",
     "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
     "build": "run-s build:* test",
-    "build:clean": "rm -rf css/*.*",
+    "build:clean": "rimraf css/*",
     "build:sass": "node-sass --output-style compact -o css sass",
     "build:autoprefixer": "autoprefixer-cli css/style.css -o css/style.css",
     "build-dev:sass": "node-sass --output-style expanded --source-map true -o css sass",
@@ -20,7 +20,6 @@
     "watch:browsersync": "browser-sync start --server --files='*.html, css/*.css'",
     "watcher:sass": "node-sass --output-style expanded --source-map true -o css sass",
     "watcher:autoprefixer": "autoprefixer-cli css/style.css -o css/style.css"
-
   },
   "repository": {
     "type": "git",
